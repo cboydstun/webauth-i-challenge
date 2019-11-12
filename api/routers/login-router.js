@@ -21,3 +21,5 @@ router.post('/', (req,res) =>{
         res.status(500).json({message: "Something went wrong while validating the credentials."});
     });
 });
+
+module.exports = router;
